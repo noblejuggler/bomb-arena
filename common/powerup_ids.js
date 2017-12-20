@@ -1,9 +1,9 @@
 module.exports = {
-	BOMB_STRENGTH: 5,
+	BOMB_STRENGTH: 10,
 
-	BOMB_CAPACITY: 6,
+	BOMB_CAPACITY: 12,
 
-	SPEED: 7,
+	SPEED: 14,
 
 	isAPowerup: function(id) {
 		return id === this.BOMB_STRENGTH || id === this.BOMB_CAPACITY || id === this.SPEED;
