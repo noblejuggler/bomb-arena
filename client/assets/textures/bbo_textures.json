@@ -1160,6 +1160,14 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":115},
 	"sourceSize": {"w":100,"h":115}
 },
+"thumbnails/spookey_forest.png":
+{
+	"frame": {"x":1580,"y":410,"w":100,"h":115},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":115},
+	"sourceSize": {"w":100,"h":115}
+},
 "thumbnails/limitless_brook_thumbnail.png":
 {
 	"frame": {"x":1376,"y":410,"w":100,"h":115},
