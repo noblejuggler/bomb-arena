@@ -108,7 +108,7 @@ TitleScreen.prototype = {
 	},
 
 	createButtons: function() {
-		this.startButton = game.add.button(buttonOffsetX - 250, startButtonOffsetY, TEXTURES, function() {
+		this.startButton = game.add.button(buttonOffsetX - 150, startButtonOffsetY, TEXTURES, function() {
 			if(!this.showingInstructions && !this.justClickedOutOfHowTo) {
 				Fader.fadeOut(function() {
 					game.state.start("Lobby");
