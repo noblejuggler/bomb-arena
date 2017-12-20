@@ -7,7 +7,7 @@ window.TEXTURES = "bbo_textures";
 startGame();
 
 function startGame() {
-	socket = io("https://bommbyio.herokuapp.com:441");
+	socket = io("https://bommbyio.herokuapp.com/:443");
     // socket = io("http://localhost:8000");
 
     require("./game/mods/phaser_enhancements");
