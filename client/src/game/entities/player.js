@@ -2,7 +2,7 @@ var Bomb = require("./bomb");
 var TextureUtil = require("../util/texture_util");
 
 var DEFAULT_PLAYER_SPEED = 180;
-var PLAYER_SPEED_POWERUP_INCREMENT = 60;
+var PLAYER_SPEED_POWERUP_INCREMENT = 90;
 
 var Player = function(x, y, id, color) {
   this.firstFrame = this.getFrame(color, "01");
