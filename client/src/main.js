@@ -8,7 +8,7 @@ startGame();
 
 function startGame() {
 	//socket = io("https://bommbyio.herokuapp.com/:443");
-        socket = io("https://bommbyio.herokuapp.com/");
+        socket = io("https://bommbyio.herokuapp.com/443");
 
     require("./game/mods/phaser_enhancements");
 
