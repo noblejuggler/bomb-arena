@@ -36,7 +36,7 @@ gulp.task('compile', function() {
 gulp.task('connect', function() {
 	connect.server({
 		root: [__dirname + '/client'],
-		port: 9000,
+		port:8200,
 		livereload: true
 	});
 });
